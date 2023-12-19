@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "228083149542",
+    "project_id": "paranoid-44c3c",
+    "storage_bucket": "paranoid-44c3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228083149542:android:6c172cfd596a6675496927",
+        "android_client_info": {
+          "package_name": "com.example.lab_6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3NetEet_-xyXtmJIjaBT84muf5BN5-gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228083149542:android:0854651fd7b00b52496927",
+        "android_client_info": {
+          "package_name": "com.example.paranoid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3NetEet_-xyXtmJIjaBT84muf5BN5-gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

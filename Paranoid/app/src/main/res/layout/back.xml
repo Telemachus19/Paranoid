@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00004D">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/black"> <!-- Set your desired color -->
+
+            <ImageView
+                android:id="@+id/ibp_img"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/pullup" />
+
+            <TextView
+                android:id="@+id/ibp_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginBottom="58dp"
+                android:text="pull up"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" /> <!-- Set your desired text color -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/layout1"
+            android:layout_marginTop="6dp"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/bf_img"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/bf" />
+
+            <TextView
+                android:id="@+id/bf_TV"
+                android:layout_width="196dp"
+                android:layout_height="58dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="47dp"
+                android:text="Butter fly"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00004D">
+
+    <ImageView
+        android:id="@+id/cardio_img"
+        android:layout_width="89dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="645dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/cardio" />
+
+    <ImageView
+        android:id="@+id/chest_img"
+        android:layout_width="202dp"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginBottom="375dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/chest" />
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginBottom="426dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/shoulder_img"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginBottom="303dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/shoulder" />
+
+    <ImageView
+        android:id="@+id/forearm_img"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginBottom="169dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/forearm" />
+
+    <ImageView
+        android:id="@+id/legs_img"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/legs" />
+
+    <TextView
+        android:id="@+id/cardio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="651dp"
+        android:text="Cardio"
+        android:layout_alignRight="@+id/cardio_img"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chest"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="530dp"
+        android:text="Chest"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="432dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shoulder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="313dp"
+        android:text="Sholder"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forearm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="186dp"
+        android:text="Forarmes"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/legs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="50dp"
+        android:text="Legs"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

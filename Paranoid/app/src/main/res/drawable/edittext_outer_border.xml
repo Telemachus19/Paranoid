@@ -1,0 +1,6 @@
+<!-- res/drawable/edittext_outer_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="2dp"
+        android:color="#676c84"/>
+</shape>

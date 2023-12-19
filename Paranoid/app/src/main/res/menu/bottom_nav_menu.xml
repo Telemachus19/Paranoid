@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Profile"
+        android:title="@string/profile"
+        android:icon="@drawable/profile"/>
+    <item
+        android:id="@+id/Exercises"
+        android:title="@string/exercises"
+        android:icon="@drawable/dumbbell"/>
+    <item
+        android:id="@+id/Measurements"
+        android:title="@string/measurements"
+        android:icon="@drawable/tape"/>
+</menu>

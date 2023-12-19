@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00004D">
+
+
+    <ImageView
+        android:id="@+id/height_img"
+        android:layout_width="73dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="635dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/height" />
+
+    <ImageView
+        android:id="@+id/weight_img"
+        android:layout_width="73dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="531dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/weight" />
+
+    <ImageView
+        android:id="@+id/age_img"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginBottom="433dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/age" />
+
+    <ImageView
+        android:id="@+id/fats_img"
+        android:layout_width="76dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="337dp"
+        android:layout_marginBottom="314dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/fats" />
+
+    <ImageView
+        android:id="@+id/calories_img"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginBottom="191dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/calories" />
+
+    <ImageView
+        android:id="@+id/bodymuscle_img"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginBottom="79dp"
+        android:scaleType="centerCrop"
+        android:scrollbarSize="50dp"
+        android:src="@drawable/forearm" />
+
+    <TextView
+        android:id="@+id/height_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="653dp"
+        android:text="Height"
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weight_VT"
+        android:layout_width="115dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="518dp"
+        android:text="Weight"
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/age_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="450dp"
+        android:text="Age"
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fats_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="321dp"
+        android:text="Body Fats"
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/calories_TV"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="212dp"
+        android:text="Calories"
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bodymuscle_TV"
+        android:layout_width="126dp"
+        android:layout_height="91dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="79dp"
+        android:text="Body Muscle"
+        android:textColor="#FFFF00"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/hegit_ET"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="645dp"
+        android:alpha="0.7"
+        android:background="@drawable/edittext_outer_border"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFF"
+
+        />
+
+    <EditText
+        android:id="@+id/weight_ET"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="530dp"
+        android:alpha="0.7"
+        android:background="@drawable/edittext_outer_border"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFF"
+
+        />
+
+    <EditText
+        android:id="@+id/age_ET"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="440dp"
+        android:alpha="0.7"
+        android:background="@drawable/edittext_outer_border"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFF"
+
+        />
+
+    <EditText
+        android:id="@+id/bodyfats_ET"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="306dp"
+        android:alpha="0.7"
+        android:background="@drawable/edittext_outer_border"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFF"
+
+        />
+
+    <EditText
+        android:id="@+id/calories_ET"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="199dp"
+        android:alpha="0.7"
+        android:background="@drawable/edittext_outer_border"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFF"
+
+        />
+
+    <EditText
+        android:id="@+id/bodymuscle_ET"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="101dp"
+        android:alpha="0.7"
+        android:background="@drawable/edittext_outer_border"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFF"
+
+        />
+
+
+</RelativeLayout>

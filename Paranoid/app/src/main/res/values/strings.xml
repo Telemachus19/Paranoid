@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Paranoid</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="logout">Logout</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="age">Age</string>
+    <string name="body_fats">Body Fats</string>
+    <string name="muscle">Muscle</string>
+    <string name="calories_per_day">Calories per Day</string>
+    <string name="name">Name</string>
+    <string name="measurements">Measurements</string>
+    <string name="exercises">Exercises</string>
+    <string name="profile">Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send_verification_code">Send Verification Code</string>
+    <string name="verification">Verification</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+</resources>
