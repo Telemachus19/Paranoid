@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00004D">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- Child Layout 1 -->
+
+        <!-- Repeat the above pattern for Child Layouts 2 through 8 -->
+
+        <!-- Child Layout 2 -->
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/black"> <!-- Set your desired color -->
+
+            <ImageView
+                android:id="@+id/ibp_img"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/shoulder1" />
+
+            <TextView
+                android:id="@+id/ibp_TV"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="-8dp"
+                android:layout_marginBottom="38dp"
+                android:text="front shoulder cable"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" /> <!-- Set your desired text color -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/layout1"
+            android:layout_marginTop="6dp"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/bf_img"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/shoulder2" />
+
+            <TextView
+                android:id="@+id/bf_TV"
+                android:layout_width="196dp"
+                android:layout_height="58dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="43dp"
+                android:text="side shoulder cable"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+        </RelativeLayout>
+
+        <!--  &lt;!&ndash; Child Layout 3 &ndash;&gt;-->
+        <!--    <RelativeLayout-->
+        <!--        android:id="@+id/layout3"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_below="@+id/layout2"-->
+        <!--        android:background="#27AE60">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image3"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:src="@drawable/age" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text3"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toEndOf="@id/image3"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:text="Text 3"-->
+        <!--            android:textColor="#FFFFFF" />-->
+        <!--    </RelativeLayout>-->
+
+
+        <!--    &lt;!&ndash; Child Layout 4 &ndash;&gt;-->
+        <!--    <RelativeLayout-->
+        <!--        android:id="@+id/layout4"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_below="@+id/layout3"-->
+        <!--        android:background="#F39C12">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image4"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:src="@drawable/age" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text4"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toEndOf="@id/image4"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:text="Text 4"-->
+        <!--            android:textColor="#FFFFFF" />-->
+        <!--    </RelativeLayout>-->
+
+        <!--    &lt;!&ndash; Continue this pattern for Child Layouts 5 through 8 &ndash;&gt;-->
+
+        <!--    &lt;!&ndash; Child Layout 5 &ndash;&gt;-->
+        <!--    <RelativeLayout-->
+        <!--        android:id="@+id/layout5"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_below="@+id/layout4"-->
+        <!--        android:background="#8E44AD">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image5"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:src="@drawable/age" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text5"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toEndOf="@id/image5"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:text="Text 5"-->
+        <!--            android:textColor="#FFFFFF" />-->
+        <!--    </RelativeLayout>-->
+
+        <!--    &lt;!&ndash; Child Layout 6 &ndash;&gt;-->
+        <!--    <RelativeLayout-->
+        <!--        android:id="@+id/layout6"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_below="@+id/layout5"-->
+        <!--        android:background="#16A085">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image6"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:src="@drawable/age" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text6"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toEndOf="@id/image6"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:text="Text 6"-->
+        <!--            android:textColor="#FFFFFF" />-->
+        <!--    </RelativeLayout>-->
+
+        <!--    &lt;!&ndash; Child Layout 7 &ndash;&gt;-->
+        <!--    <RelativeLayout-->
+        <!--        android:id="@+id/layout7"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_below="@+id/layout6"-->
+        <!--        android:background="#E74C3C">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image7"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:src="@drawable/age" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text7"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toEndOf="@id/image7"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:text="Text 7"-->
+        <!--            android:textColor="#FFFFFF" />-->
+        <!--    </RelativeLayout>-->
+
+        <!--    &lt;!&ndash; Child Layout 8 &ndash;&gt;-->
+        <!--    <RelativeLayout-->
+        <!--        android:id="@+id/layout8"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_below="@+id/layout7"-->
+        <!--        android:background="#2C3E50">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/image8"-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="16dp"-->
+        <!--            android:src="@drawable/age" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/text8"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toEndOf="@id/image8"-->
+        <!--            android:layout_centerVertical="true"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:text="Text 8"-->
+        <!--            android:textColor="#FFFFFF" />-->
+        <!--    </RelativeLayout>-->
+
+    </RelativeLayout>
+</ScrollView>

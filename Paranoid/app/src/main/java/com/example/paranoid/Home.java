@@ -81,11 +81,19 @@ public class Home extends AppCompatActivity {
             Toast.makeText(this, "User data not found", Toast.LENGTH_SHORT).show();
         }
 
-        replaceFragment(new ProfileFragment());
+        if (fireuser != null) {
+            showProfileFragment(fireuser.getUid());
+        } else {
+            Toast.makeText(this, "User data not available", Toast.LENGTH_SHORT).show();
+        }
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
             if (item.getItemId() == R.id.Profile) {
-                replaceFragment(new ProfileFragment());
+                if (fireuser != null) {
+                    showProfileFragment(fireuser.getUid());
+                } else {
+                    Toast.makeText(this, "User data not available", Toast.LENGTH_SHORT).show();
+                }
             } else if (item.getItemId() == R.id.Exercises) {
                 replaceFragment(new ExercisesFragment());
             } else if (item.getItemId() == R.id.Measurements) {
@@ -110,6 +118,13 @@ public class Home extends AppCompatActivity {
         });
     }
 
+    private void showProfileFragment(String userId) {
+        ProfileFragment fragment = ProfileFragment.newInstance(userId);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.frame_layout, fragment)
+                .addToBackStack(null)
+                .commit();
+    }
     private void showMeasurementsFragment(String userId) {
         MeasurementsFragment fragment = MeasurementsFragment.newInstance(userId);
         getSupportFragmentManager().beginTransaction()

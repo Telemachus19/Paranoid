@@ -4,7 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 
 /**
@@ -46,18 +47,44 @@ public class ExercisesFragment extends Fragment {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_exercises, container, false);
+
+        setupExerciseClickListener(view, R.id.cardio_img, R.id.cardio, R.layout.fragment_cardio);
+        setupExerciseClickListener(view, R.id.chest_img, R.id.chest, R.layout.fragment_chest);
+        setupExerciseClickListener(view, R.id.back_img, R.id.back, R.layout.fragment_back);
+        setupExerciseClickListener(view, R.id.shoulder_img, R.id.shoulder, R.layout.fragment_shoulder);
+        setupExerciseClickListener(view, R.id.forearms_img, R.id.forearms, R.layout.fragment_forearms);
+        setupExerciseClickListener(view, R.id.legs_img, R.id.legs, R.layout.fragment_legs);
+
+        return view;
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_exercises, container, false);
+    private void setupExerciseClickListener(View parentView, int imageId, int textId, int layoutResId) {
+        ImageView exerciseImage = parentView.findViewById(imageId);
+        TextView exerciseText = parentView.findViewById(textId);
+
+        // Set OnClickListener for the image
+        exerciseImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navigateToFragment(layoutResId);
+            }
+        });
+
+        // Set OnClickListener for the text
+        exerciseText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navigateToFragment(layoutResId);
+            }
+        });
+    }
+
+    private void navigateToFragment(int layoutResId) {
+        View fragmentView = LayoutInflater.from(requireContext()).inflate(layoutResId, null);
+        ViewGroup currentFragmentView = (ViewGroup) requireView();
+        currentFragmentView.removeAllViews();
+        currentFragmentView.addView(fragmentView);
     }
 }

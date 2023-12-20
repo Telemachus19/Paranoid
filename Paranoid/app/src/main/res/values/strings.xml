@@ -29,4 +29,19 @@
     <string name="log_in">Log in</string>
     <string name="back">Back</string>
     <string name="enter_your_informations_below_or_login_with_a_other_account">Enter your informations below or login with a other account</string>
+    <string name="chest_progressive_overload">Chest Progressive Overload</string>
+    <string name="back_progressive_overload">Back Progressive Overload</string>
+    <string name="abs_progessive_overload">Abs Progessive Overload</string>
+    <string name="legs_progressive_overload">Legs Progressive Overload</string>
+    <string name="workout">Workout</string>
+    <string name="forearm_progressive_overload">Forearm Progressive Overload</string>
+    <string name="record_workout">Record Workout</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+    <string name="music">Music</string>
+    <string name="legs">Legs</string>
+    <string name="forearms">Forearms</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="chest">Chest</string>
+    <string name="cardio">Cardio</string>
 </resources>

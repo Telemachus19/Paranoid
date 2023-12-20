@@ -2,8 +2,9 @@ package com.example.paranoid;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -43,11 +44,15 @@ public class Login extends AppCompatActivity {
         }
     }
 
-
+    @SuppressLint("UnspecifiedRegisterReceiverFlag")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        MyReceiver batlow = new MyReceiver();
+        IntentFilter f1 = new IntentFilter(Intent.ACTION_BATTERY_LOW);
+        registerReceiver(batlow,f1);
 
         mAuth = FirebaseAuth.getInstance();
         editTextEmail = findViewById(R.id.txtemail);
@@ -56,6 +61,10 @@ public class Login extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         textView = findViewById(R.id.registerNow);
         textViewForgotPassword = findViewById(R.id.forgot_password);
+
+        IntentFilter intentFilter = new IntentFilter("android.intent.BATTERY_LOW");
+        MyReceiver receiver = new MyReceiver();
+        registerReceiver(receiver,intentFilter);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override

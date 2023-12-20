@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,13 +10,20 @@
     android:paddingRight="15dp"
     android:paddingTop="50dp">
 
+    <ImageView
+        android:id="@+id/help"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:visibility="visible"
+        android:src="@drawable/help"
+        app:tint="@color/black" />
+
     <!-- Height -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilHeight"
-
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/Height"
@@ -31,8 +39,7 @@
         android:id="@+id/tilWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilHeight"
-        android:layout_marginTop="16dp">
+        android:layout_below="@id/tilHeight">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/Weight"
@@ -48,15 +55,14 @@
         android:id="@+id/tilAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilWeight"
-        android:layout_marginTop="16dp">
+        android:layout_below="@id/tilWeight">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/Age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Age"
-            android:inputType="number" />
+            android:inputType="number"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,15 +71,14 @@
         android:id="@+id/tilBodyFats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilAge"
-        android:layout_marginTop="16dp">
+        android:layout_below="@id/tilAge">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/BodyFats"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Body Fats"
-            android:inputType="number" />
+            android:inputType="number"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -82,8 +87,7 @@
         android:id="@+id/tilMuscle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilBodyFats"
-        android:layout_marginTop="16dp">
+        android:layout_below="@id/tilBodyFats">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/Muscle"
@@ -99,8 +103,7 @@
         android:id="@+id/tilCaloriesPerDay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tilMuscle"
-        android:layout_marginTop="16dp">
+        android:layout_below="@id/tilMuscle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/CaloriesPerDay"
@@ -110,6 +113,37 @@
             android:inputType="number" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/ChestOverloadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/AbsOverloadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/BackOverloadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/LegsOverloadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="10pt"/>
+    <TextView
+        android:id="@+id/ForearmsOverloadTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="10pt"/>
 
 
 </LinearLayout>
