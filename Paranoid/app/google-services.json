@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "228083149542",
+    "firebase_url": "https://paranoid-44c3c-default-rtdb.firebaseio.com",
     "project_id": "paranoid-44c3c",
     "storage_bucket": "paranoid-44c3c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:228083149542:android:6c172cfd596a6675496927",
+        "mobilesdk_app_id": "1:228083149542:android:0854651fd7b00b52496927",
         "android_client_info": {
-          "package_name": "com.example.lab_6"
+          "package_name": "com.example.paranoid"
         }
       },
       "oauth_client": [],
@@ -26,9 +27,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:228083149542:android:0854651fd7b00b52496927",
+        "mobilesdk_app_id": "1:228083149542:android:fc3988292b602fc2496927",
         "android_client_info": {
-          "package_name": "com.example.paranoid"
+          "package_name": "com.example.paranoid_navigation_view"
         }
       },
       "oauth_client": [],
